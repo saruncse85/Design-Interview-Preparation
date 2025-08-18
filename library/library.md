@@ -1,22 +1,22 @@
-#Library Management System.
+# Library Management System.
 
-##Functional Requirement
+## Functional Requirement
     1. Create book item
     2. Search for book item
     3. Create user
     4. User to reserve a book item
 
-##Non Functional Requirement
+## Non Functional Requirement
 
     1. System to be available all the time
     2. Book search to get back in 2 secs.
     3. Handle User growth.
 
 
-#High Level Design
+# High Level Design
 
 
-##API Design
+## API Design
    1. create book item
     endpoint: POST  /library/book/create
     input:
@@ -125,7 +125,7 @@
         }
 
 
-##Draw the diagram
+## Draw the diagram
 
     User logs to system --> CDN --> Load Balancer
 
@@ -144,13 +144,13 @@
                     RDBMS since is the structured data and lot of
                     data integrity/relationships.
 
-##Deep Dive
+## Deep Dive
 
 Identify the issue area and solution the problem.
 
 
 
-Non Functional Requirment
+## Non Functional Requirment
 
     System should be available 100 %
 
